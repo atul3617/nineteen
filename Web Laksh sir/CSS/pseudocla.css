@@ -1,0 +1,18 @@
+/* .contain p:first-child{
+    color: brown;
+}
+.contain p:last-child{
+    color: blue;
+} */
+/* .contain p:nth-last-child(odd){
+    color: aqua;
+} */
+/* .contain p:nth-child(even){
+ color: darkgreen;   
+} */
+.contain p:nth-of-type(2){
+    color: crimson;
+}
+.contain p:nth-last-of-type(3){
+    color: yellow;
+} 

@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    height:40px ;
+    width:100% ;
+    background-color: #2455f4;
+}
+nav #demo4{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 5px;
+    position: relative;
+    top: -35px;
+}
+nav #demo{
+    position: relative;
+    top: -10px;
+    left: 230px;
+    font-size: 20px;
+    color: white;
+}
+nav #demo1{
+    position: relative;
+    top: -10px;
+    left: 270px;
+    font-size: 20px;
+    color: white;
+}
+nav #demo2{
+    position: relative;
+    top: -10px;
+    left: 300px;
+    font-size: 20px;
+    color: white;
+}
+nav button{
+    background-color: white;
+    height:30px ;
+    width:120px ;
+    position: relative;
+    left:210px ;
+    top: 4px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+nav input{
+    height:28px ;
+    width: 350px;
+    position: relative;
+    left:200px ;
+    top: 3px;
+}
+nav path{
+    color: blue;
+    background-color: blue;
+    position: relative;
+    left:100px ;
+    top: 20px;
+}
+nav #demo5{
+    position: relative;
+    top:19px ;
+    left: 169px;
+    font-size: 15px;
+    color: white;
+}
+nav svg{
+    position: relative;
+    left:170px ;
+    top:10px ;
+    background-color: blue;
+}

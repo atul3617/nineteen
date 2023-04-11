@@ -1,0 +1,9 @@
+div{
+    margin: 60px;
+    border: 50px solid red;
+}
+span{
+    margin: 60px;
+    border-radius: 80px;
+    border: 50px solid blue;
+}

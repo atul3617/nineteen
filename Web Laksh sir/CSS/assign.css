@@ -1,0 +1,15 @@
+#as{
+    background-color: aqua;
+    font-size: 40px;
+}
+.qw{
+    background-color: blue;
+    font-size: 30px;
+}
+h4{
+    color: cadetblue;
+}
+h4,h5{
+    background-color: brown;
+    font-size: 20px;
+}

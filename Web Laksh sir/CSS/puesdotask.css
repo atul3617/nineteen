@@ -1,0 +1,19 @@
+h1{
+    color: aqua;
+    background-color: darkgrey;
+}
+p::first-letter{
+    font-size: 50px;
+    color: red;
+}
+p::first-line{
+    background-color: blue;
+    color: green;
+}
+p::after{
+    content: "=>Thank you";
+}
+li::marker{
+    color: pink;
+    font-size: 40px;
+}

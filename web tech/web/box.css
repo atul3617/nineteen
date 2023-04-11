@@ -1,0 +1,39 @@
+*{background-color: aqua;}
+img{
+border: 2px solid gray;   
+text-align: left;
+height: 100px; width: 150px;
+}
+marquee{
+
+    border: 2px solid blue;
+    color: brown;
+}
+table{
+    border: 4px solid black;
+    }
+
+
+#as{
+
+    border: 2px solid black; height: 500px; width: 500px;
+    background-color: blue;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+#zx{
+
+    border: 2px solid black; height: 400px; width: 400px;
+    background-color: olive;
+    padding: 20px;
+    margin-top: 30px;
+}
+.qw{
+
+
+    border: 2px solid black; height: 300px; width: 300px;
+    background-color: darkgrey;
+    padding: 20px;
+    margin-top: 30px;
+}

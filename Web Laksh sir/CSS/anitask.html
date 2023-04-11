@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+           
+        }
+        #h1{
+            height: 130px;
+            width: 100%;
+            background-color: rgb(169, 234, 240);
+            margin: 0;
+        }
+        #h2{
+            height: 130px;
+            width: 100%;
+            background-color: rgb(44, 239, 44);
+            margin: 0;
+        }
+        #asd{
+            height: 200px;
+            width: 100%;
+            background-color: black;
+            animation-name: bike;
+            animation-iteration-count: 3;
+            animation-duration: 20s;
+            animation-timing-function: ease;
+        }
+        @keyframes bike{
+            0%{
+                position: relative;
+                left: 0px;
+                background-image: url(../HTML/IMAGES/bike1.jpg);
+                background-repeat: no-repeat;
+                background-size: 160px 170PX;
+            }
+            25%{
+                position: relative;
+                left: 1100px;
+                top: 0px;
+                background-image: url(../HTML/IMAGES/bike1.jpg);
+                background-repeat: no-repeat;
+                background-size: 160px 170PX;
+            }
+            50%{
+                position: relative;
+                left: 1100px;
+                top: 135px;
+                background-image: url(../HTML/IMAGES/bike3.jpg);
+                background-repeat: no-repeat;
+                background-size: 160px 170PX;
+            }
+            75%{
+                position: relative;
+                left: 0px;
+                top: 135px;
+                background-image: url(../HTML/IMAGES/bike3.jpg);
+                background-repeat: no-repeat;
+                background-size: 160px 170PX;
+            }
+            100%{
+                position: relative;
+                left: 0px;
+                top: 0px;
+                background-image: url(../HTML/IMAGES/bike1.jpg);
+                background-repeat: no-repeat;
+                background-size: 160px 170PX;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="h1"></div>
+    <div id="h2"></div>
+    <div id="asd"></div>
+
+</body>
+</html>

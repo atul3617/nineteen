@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: roboto, arial, sans-serif;
+    text-decoration: none;
+    min-height: 140vh;
+    background:#f1f3f6 ;
+}
+.nav_container{
+    background-color: #1351b6;
+}
+.none{
+    display: none;
+}
+
+.flex{
+    display: flex;
+}
+.fa{
+    margin: 0px 4px;
+}
+.fa-angle-down{
+    font-weight: lighter;
+    margin: 0;
+
+}
+.fa-user{
+    border-radius:50%;
+}
+/* styling navigation heading */
+.heading_navigation{
+    background-color: #1351b6;
+    height: 56px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.nav_container{
+    align-items: center;
+    max-width: 1248px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    left: 61px;
+}
+.logo{
+    flex-direction: column;
+    width: fit-content;
+}
+.anchor{
+    cursor: pointer;
+    text-decoration:none;
+    color: whitesmoke;
+}
+.flip_logo img{
+    width: 75px;
+}
+
+.anchor:hover{
+    text-decoration: underline;
+}
+
+
+.anchor{
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -5px;
+}
+.plus img{
+    width: 10px;
+}
+
+.plus_lan{ /* plus text css */
+    color:#ffe500 ;
+    margin: 0px 2px;
+    font-weight: bold;
+}
+.search_bar_container{
+    min-width: 304px;
+    width: 708px;
+}
+
+.search_bar{
+    max-width: 564px;
+    width: 100%;
+    margin-left: 10px;
+    box-shadow: 0px 2px 4px 0 rgb(0 0 0 / 23%);
+}
+.search_box{
+    outline: none;
+    padding: 0px 16px;
+    height: 36px;
+    border-radius: 2px 0px 0px 2px;
+    border: 0;
+    width: 100%;
+    font-size: 14px;
+
+}
+.btn_search{
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 4px 12px 4px 8px;
+    width: 44px;
+    height: 36px;
+    cursor: pointer;
+    border-radius:0px 2px 2px 0px ;
+    color: #2874f0;
+    font-size: 19px;
+}
+.login{
+    position: relative;
+    left: 45px;
+
+}
+.login_btn{
+    color:#2874f0;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+    background: #fff;
+    letter-spacing: 1px;
+    height: 32px;
+    padding:6px ;
+    font-weight: bold;
+    margin: 0px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+
+
+}
+.more , .cart{
+    position: relative;
+    left: 45px;
+}
+.more_lan , .cart_lan{
+    color: white;
+    font-weight: bold;
+    margin: 0px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.heading_categories{
+    background: #fff;
+    justify-content: center;
+    min-height: 112px;
+    border-bottom: 2px solid lightgray;
+
+
+}
+.heading_category_list{
+    list-style: none;
+    max-width: 1280px;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.heading_category_items{
+    padding: 12px 8px;
+    cursor: pointer;
+    text-align: center;
+}
+.heading_category_items:hover{
+    color: #2874f0;
+
+}
+.cat_image{
+    height: 64px;
+    width: 64px;
+    margin-bottom:3px;
+
+}
+
+.heading_item_name{
+    font-size: 14px;
+    font-weight:550;
+}
+
+.heading_category_items:first-child{
+padding-left: 22px;
+}
+
+.heading_category_items:last-child{
+    padding-right: 22px;
+}
+
+/*styling the dropdown menu */
+
+.pointer{
+    width:20px;
+    height:20px;
+    background: #fff;
+    transform:rotate(45deg);
+    position:relative;
+    top:10px;
+    left:50%;
+
+}
+
+.login_dropdown, .more_dropdown{
+    position:relative;
+    top:12px;
+}
+.more_dropdown{
+    right: 40px;
+}
+.login_dropdown_list , .more_dropdown_list{
+    position:absolute;
+    list-style: none;
+    background-color: #fff;
+    width: max-content;
+    box-shadow:0 4px 16px 0 rgb(0 0 0 /20%) ;
+    min-width: 240px;
+    transform: translate(-30px);
+}
+
+.login_drop_li , .more_drop_li{
+    padding: 16px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login_drop_li:last-child , .more_drop_li:last-child{
+    border-bottom: none;
+}
+
+.login_drop_li:first-child{
+    padding: 20px;
+}
+.login_drop_li:first-child:hover{
+    background: #fff;
+}
+
+.login_drop_li:hover , .more_drop_li:hover{
+    background: #fafafa;
+}
+
+.new_login{
+    font-weight: bold;
+}
+.sign_li{
+    justify-content: space-between;
+    font-size: 14px;
+}
+.sign_up{
+    text-decoration: none;
+    color:#2874f0 ;
+}
+
+.more:hover .more_lan{
+    position: relative;
+    top: 10px;
+}
+.more_pointer{
+    left: 80%;
+}
+.more_icon{
+    width:25px;
+    color:#2874f1;
+}
+
+.login:hover .login_dropdown , .more:hover .more_dropdown{
+    display: block;
+}
+
+</style>   
+</head>
+<body>
+    <div class="nav_container flex">
+        <div class="logo flex">
+            <a href="../html/index.html" class="flip_logo"><img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png" alt="logo"></a>
+            <a href="../html/index.html" class="anchor plus">Explore <span class="plus_lan">Plus <img src="../images/plus_icon.png" alt="logo"></span></a>
+        </div>
+        <!-- searchbar-->
+        <div class="search_bar_container">
+            <div class="search_bar">
+                <form action="" class="search flex">
+                    <input type="text" placeholder="Search For products, brands and more" class="search_box">
+                    <button class="btn_search">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <!-- Login Button-->
+        <div class="login">
+            <a href="../html/#" class="login_btn">login</a>
+            <div class="login_dropdown none">
+                <ul class="login_dropdown_list">
+                    <li class="login_drop_li sign_li flex">
+                        <p class="new_login">New customer</p>
+                        <a href="../html/#" class="sign_up">Sign Up</a>
+                    </li>
+                    <li class="login_drop_li">My Profile</li>
+                    <li class="login_drop_li">Flipkart Plus Zne</li>
+                    <li class="login_drop_li"> Orders</li>
+                    <li class="login_drop_li">Whishlist</li>
+                    <li class="login_drop_li">Rewards</li>
+                    <li class="login_drop_li">Gift Cards</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- more buttons-->
+        <div class="more">
+            <span class="more_lan"> More
+                <i class="fa fa-angle-down"></i>
+            </span>
+            <div class="more_dropdown none">
+                <div class="pointer more_pointer"></div>
+                <ul class="more_dropdown_list">
+
+                    <li class="more_drop_li">
+                        <i class="more_icon fa fa-bell"></i>Notifications Preferences
+                    </li>
+
+                    <li class="more_drop_li">
+                         <i class="more_icon fa fa-shopping-basket"></i>Sell on Flipkart
+                    </li>
+
+                    <li class="more_drop_li">
+                         <i class="more_icon fa fa-question"></i> 24X7 Customer Care
+                    </li>
+
+                    <li class="more_drop_li">
+                        <i class="more_icon fa fa-line-chart"></i>Advertise
+                    </li>
+
+                    <li class="more_drop_li">
+                        <i class="more_icon fa fa-download"></i>Download App
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <!-- Cart Button-->
+        <div class="cart">
+            <span class="cart_lan"><i class="fa fa-shopping-cart">Cart</i></span>
+        </div>
+    </div>
+</nav>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> 
+</body>
+</html>

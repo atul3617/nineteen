@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        #lk{
+             height: 170px;
+             width: 180px;
+             background-image: linear-gradient(red,blue);
+             border-radius: 90px;
+             border: 2px solid black;
+             }
+        #mn{
+             height: 170px;
+             width: 180px;
+             background-image: radial-gradient(green,pink);
+             border-radius: 90px;
+             margin-top: 30px;
+             border: 2px solid black;
+        }
+        #iu{ 
+            height: 170px;
+             width: 180px;
+             background-image: conic-gradient(black,white);
+             border-radius: 90px;
+             margin-top: 30px;
+             border: 2px solid black;
+            }
+        #iu:hover{
+            position: relative;
+            left: 1040px;
+            background-image: conic-gradient(red,blue );
+        }
+        #mn:hover{
+            position: relative;
+            left: 1040px;
+            background-image: radial-gradient(black,white);
+        }
+        #lk:hover{
+            position: relative;
+            left: 1040px;
+            background-image: linear-gradient(green,pink);
+        }
+    </style>
+</head>
+<body>
+    <div id="lk"></div>
+    <div id="mn"></div>
+    <div id="iu"></div>
+</body>
+</html>

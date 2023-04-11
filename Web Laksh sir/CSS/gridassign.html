@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contain{
+            height: 900px;
+            width: 90%;
+            background-color: antiquewhite;
+            display: grid;
+            grid-template-columns: 150px 150px ;
+            column-gap: 300px;
+            /* row-gap: 100px;    */
+            /* grid-template-rows: 300px 300px 300px; */
+        }
+        .item{
+            height: 100px;
+            width: 100px;
+            font-size: 50PX;
+            background-color: blueviolet;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+        }
+         #as1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            width: 750px;
+            height: 150px;
+            justify-content: start;
+         
+        }
+         #as2,#as3{
+            grid-row-start: 2;
+             height: 200px;
+            width: 300px;
+           
+        } 
+        #as4,#as5{
+            
+            grid-row-start: 3;
+             height: 200px;
+            width: 300px;
+        } 
+         #as6{
+            grid-row-start: 4;
+         font-size: 40PX;   
+            width: 750px;
+            height: 150px;
+        }  
+        #as5{
+            overflow: scroll;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <div class="item" id="as1">HOME</div>
+        <div class="item" id="as2">SECTION</div>
+        <div class="item" id="as3">ASIDE</div>
+        <div class="item" id="as4"><img src="../HTML/IMAGES/CR3.jpg" alt="" height="200px" width="300px"></div>
+        <div class="item" id="as5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolore consequatur odio porro. Dolores soluta culpa nobis eligendi magnam dolorem reprehenderit delectus minima distinctio perferendis, possimus provident inventore a facere molestiae ratione, sint earum sit natus accusamus. Quibusdam, quam fugiat? Temporibus nisi, nulla praesentium esse maxime repellat a est adipisci?</div>
+        <div class="item" id="as6">FOOTER PART @COPY RIGHTS 2023</div>
+    </div>
+</body>
+</html>

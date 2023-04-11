@@ -1,0 +1,29 @@
+a{
+    font-size: 50px;
+}
+a:link{
+    color: brown;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: darkgreen;
+}
+a:active{
+    color: yellow;
+}
+div{
+    background-color: grey;
+    border: 20px groove greenyellow;
+    margin-top: 10px;
+    height: 150px;
+    width: 200px;
+} 
+div:hover{
+    background-color: blue;
+    border: 30px inset indigo;
+    height: 200px;
+    width: 250px;
+    /* margin-left: 500px; */
+}

@@ -1,0 +1,24 @@
+/* decendent */
+/* div h1{
+    color:gray;
+    background-color: crimson;
+} */
+/* child */
+div>h1{
+    color: cadetblue;
+    background-color: darkslateblue;
+}
+/* adjacent */
+div+h1{
+    color: darkolivegreen;
+    background-color: maroon;
+}
+/* general */
+div~h1{
+    color: darkcyan;
+    background-color: lightslategray;
+}
+article>p{
+    color: blue;
+    background-color: darkorchid;
+}

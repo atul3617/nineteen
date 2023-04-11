@@ -1,0 +1,36 @@
+#q{
+    background-color: blue;
+    display: flex;
+    height: 100px;
+    width: 150px;
+}
+#a{
+    background-color: blue;
+    display: flex;
+    height: 100px;
+    width: 150px;
+    margin-left: 250px;
+}
+span{
+    background-color: blue;
+    display: flex;
+    height: 100px;
+    width: 150px;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+#we{
+    background-color: blue;
+    display: flex;
+    height: 100px;
+    width: 150px;
+    margin-top: 70px;
+}
+#ew{
+    background-color: blue;
+    display: flex;
+    height: 100px;
+    width: 150px;
+    margin-left: 250px;
+    margin-top: 70px;
+}

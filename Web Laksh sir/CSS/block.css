@@ -1,0 +1,16 @@
+#as{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: olive;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    /* padding-left: 40px; */
+    border: 40px grey;
+    border-radius: 700px ;
+    border-style: groove;
+    margin-left: 380px;
+    margin-top: 100px;
+
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 1000px;
+            width: 90%;
+            background-color: brown;
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            column-gap: 50px;
+            grid-template-rows: 60px 60px 60px;
+            row-gap: 70px;
+            
+        }
+       .conitem{
+        height: 100px;
+        width: 100px;
+        border: 3px solid rgb(228, 238, 207);
+        background-color: aqua;
+       } 
+       #a1{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        overflow:auto;
+        width: 400px;
+       }
+       #a2{
+        grid-row-start: 2;
+        grid-row-end:4 ;
+        height: 230px;
+        background-color: darkblue;
+       }
+       #a7{
+        grid-column-start:2 ;
+        grid-column-end:3 ;
+        width: 400px;
+        background-color: chartreuse;
+       }
+       #a8{
+        grid-column-start:2 ;
+        grid-column-end:3 ;
+        width: 400px;
+       }
+    </style>
+</head>
+<body>
+    <!-- div.con>div.item#as1*6 -->
+    <div class="container">
+        <div class="conitem" id="a1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem numquam, nisi at corporis consequuntur, nulla, voluptatem aut assumenda maiores enim officiis ullam suscipit hic perferendis voluptas fugit nihil atque omnis minima perspiciatis totam deserunt optio earum! Excepturi, a ipsum est inventore quidem porro consectetur reiciendis at dicta expedita sed nesciunt tenetur</div>
+        <div class="conitem" id="a2"></div>
+        <div class="conitem" id="a3"></div>
+        <div class="conitem" id="a4"></div>
+        <div class="conitem" id="a5"></div>
+        <div class="conitem" id="a6"></div>
+        <div class="conitem" id="a7"></div>
+        <div class="conitem" id="a8"></div>
+        <!-- <div class="conitem" id="a9"></div> -->
+        <!-- <div class="conitem" id="a10"></div> -->
+    </div>
+</body>
+</html>

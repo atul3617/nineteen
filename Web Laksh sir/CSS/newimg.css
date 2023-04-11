@@ -1,0 +1,61 @@
+#a{
+    height: 200px;
+    width: 700px;
+    background-color: blueviolet;
+    border: 5px groove gray;
+}
+#s{
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+    margin-top: -210px;
+    margin-left: 700px;
+    border: 5px groove gray;
+    background-image: url(../HTML/IMAGES/cr4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#q{
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+    border: 5px groove gray;
+    background-image: url(../HTML/IMAGES/CR2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#w{
+        height: 200px;
+        width: 700px;
+        background-color:blueviolet;
+        margin-top: -210px;
+        margin-left: 400px;
+        border: 5px groove gray;
+}
+#e{
+    height: 200px;
+    width: 700px;
+    background-color:blueviolet;
+    border: 5px groove gray;
+}
+#d{
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+    border: 5px groove gray;
+    background-image: url(../HTML/IMAGES/CR3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -210px;
+    margin-left: 700px;
+}
+#d:hover{
+    background-image: url(../HTML/IMAGES/CR2.jpg);
+}
+#s:hover{
+    background-image: url(../HTML/IMAGES/CR3.jpg);
+}
+#q:hover{
+    background-image: url(../HTML/IMAGES/cr4.jpg);
+}

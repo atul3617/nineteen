@@ -1,0 +1,86 @@
+body{
+    background-color:green;
+}
+#as{
+    background-color: blue;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 20px;
+    background-image: url(../HTML/IMAGES/CR7.jpg);
+    background-size: cover;
+}
+#a{
+    background-color: brown;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    border: 5px solid black;
+    padding: 5px;
+    margin-left: 500px;
+    margin-top: -570px;
+    background-image: url(../HTML/IMAGES/CR7.jpg);
+    background-size: cover;
+}
+#s{
+    background-color: blue;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    border: 5px solid black;
+    padding: 5px;
+    margin-left: 1000px;
+    margin-top: -170px;
+    background-image: url(../HTML/IMAGES/CR7.jpg);
+    background-size: cover;
+}
+#d{
+    background-color: blue;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    border: 5px solid black;
+    padding: 5px;
+    margin-left: 1000px;
+    margin-top: 20px;
+    background-image: url(../HTML/IMAGES/CR7.jpg);
+    background-size: cover;
+}
+#q{
+    background-color: blue;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    border: 5px solid black;
+    padding: 5px;
+    margin-left: 1000px;
+    margin-top: 30px;
+    background-image: url(../HTML/IMAGES/CR7.jpg);
+    background-size: cover;
+}
+#w{
+    background-color: blue;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    border: 5px solid black;
+    padding: 5px;
+    margin-left: 500px;
+    margin-top: -370px;
+    background-image: url(../HTML/IMAGES/CR7.jpg);
+    background-size: cover;
+}
+#e{
+    background-color: blue;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    border: 5px solid black;
+    padding: 5px;
+    margin-left: 500px;
+    margin-top: 30px;
+    background-image: url(../HTML/IMAGES/CR7.jpg);
+    background-size: cover;
+}

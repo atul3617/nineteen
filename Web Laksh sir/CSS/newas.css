@@ -1,0 +1,28 @@
+div{
+    background-color: blue;
+    display: flex;
+    text-align: center;
+    height: 100px;
+    width: 150px;
+    margin: 30px;
+    border: 10px groove gray;
+}
+span{
+    background-color: blue;
+    display: flex;
+    text-align: center;
+    height: 100px;
+    width: 150px;
+    margin: 30px;
+    border: 10px groove gray;
+}
+div:hover{
+    background-color: darkslategray;
+    border: 10px double green;
+    border-radius: 50px;
+}
+span:hover{
+    background-color: maroon;
+    border: 10px inset turquoise;
+    border-radius: 50px;
+}

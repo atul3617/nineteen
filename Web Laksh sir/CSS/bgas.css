@@ -1,0 +1,16 @@
+h1{
+    height: 530px;
+    width: 1200px;
+    background-color: rgb(82, 104, 201);
+    border: 20px inset blueviolet;
+    border-radius: 20px;
+    background-image: url(../HTML/IMAGES/CR1.jpg),
+    url(../HTML/IMAGES/CR2.jpg),url(../HTML/IMAGES/CR3.jpg),
+    url(../HTML/IMAGES/CR5.jpg),url(../HTML/IMAGES/CR7.jpg),
+    url(../HTML/IMAGES/cr4.jpg),url(../HTML/IMAGES/cr6.jpg),
+    url(../HTML/IMAGES/cr8.jpg),url(../HTML/IMAGES/cr9.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px,150px 150px,150px 150px,150px 150px,150px 150px,
+    150px 150px,150px 150px,150px 150px,150px 150px;
+    background-position: top left,top center,top right,bottom left,bottom right,bottom center,center,center left,center right;
+}
